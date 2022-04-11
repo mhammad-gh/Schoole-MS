@@ -1,0 +1,184 @@
+
+body{
+      padding: 0;
+      margin: 0;
+      background: linear-gradient(rgba(43, 85, 148),#042033);
+     font-family: auto;
+  }
+ 
+  .fa-window-close {
+  
+      background-color: #d6e0ee;
+      font-size: 22px;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 3;
+      box-shadow: 0px 0px 10px 0px #337db3;
+  }
+ 
+  #btn_return {
+      color: white;
+      font-size: 30px;
+      background: none;
+      border: none;
+      position: relative;
+      top: 5%;
+      left: 80%;
+  }
+  
+      #logo{
+          position: relative;
+          width: 100%;
+          top: 3%;
+          left:5%;
+          z-index: 2;
+         
+      }
+      
+      .heading{
+            text-align: center;
+            padding: 2.5rem 0;
+      }
+      .heading span {
+            position: relative;
+            top: -60px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 50px;
+            border-radius: .5rem;
+            text-align: center;
+            background: linear-gradient(#143449,rgb(201, 217, 241));
+            color: rgb(27, 40, 51);
+            padding: .2rem 1rem;
+            cursor: pointer;
+            box-shadow: -1px 12px 12px -6px rgba(35, 126, 196, 0.5);
+
+        }
+  
+        section#content {
+            position: relative;
+            top: -50px;
+            margin-bottom: 30px;
+            min-height: 70vh;
+            text-align: center;
+        }
+        ul{
+             
+              text-align: center;
+              font-size: 35px;
+        }
+        ul li {
+            margin: 40px;
+            list-style: none;
+
+      }
+      ul li a{
+            font-weight: bold;
+            color: rgb(222, 230, 243);
+     
+      }
+      ul li a:hover{
+     text-decoration: none;
+      }
+
+.item{
+      height: 6rem;
+      width: 30rem;
+      padding: 30px 25px;
+      border-radius: 15px;
+      font-size: 30px;
+      color: rgb(240, 245, 250);
+      border:.2rem solid rgb(222, 230, 243);
+      outline: .2rem solid rgb(222, 230, 243);
+      outline-offset: -.9rem;
+      cursor: pointer;
+      background: linear-gradient(rgba(175, 202, 243, 0.5),#0c2435);
+
+}
+.item:hover{
+      box-shadow: 0 0 20px rgb(138, 148, 165);
+outline-offset: .4rem;
+border:.2rem solid #143449;
+background: linear-gradient(#143449,rgb(201, 217, 241));
+color: #143449;
+height: 4.5rem;
+}
+#hr{
+      position: relative;
+    
+      margin-bottom: 60px;
+}
+.btn1::before, .btn1::after{
+     
+      content: '';
+      position: absolute;
+      height: 4rem;
+      width: 4rem;
+      border-top: .4rem solid rgb(222, 230, 243); 
+      border-left: .4rem solid rgb(222, 230, 243); 
+        }
+        .btn1::before{
+            top: .3rem;
+            left: 9rem;
+      }
+      .btn1::after{
+            bottom: .3rem;
+            right: 9rem;
+            transform: rotate(180deg);
+      }
+      .btn1:hover{
+color: #8abbdf;
+padding-left: 10px;
+      }
+      @media only screen and (max-width:1200px){
+               
+            .btn1::before{
+                       
+                        left: 3rem;
+                  }
+                  .btn1::after{
+                        
+                        right: 2rem;}
+      }
+   
+
+@media only screen and (max-width:790px){
+  
+             
+      #logo{
+            left: 40%;
+      }
+      .heading span {
+         top: 10px;
+            font-size: 30px;}
+            label{
+                  font-size: 40px;
+            }
+            section#content {
+                  
+                  top: 0px;}
+            .item{
+                        font-size: 20px;
+                  }
+                  .btn1::before, .btn1::after{
+                        height: 3rem;
+                        width: 3rem;}
+                        .btn1::before{
+                              top: 1rem;
+                              left: 1rem;
+                        }
+                        .btn1::after{
+                              bottom: 3rem;
+                              right: 0rem;}
+}
+
+@media only screen and (max-width:535px){
+.btn1::before{
+      top: 1rem;
+      left: 6rem;
+}
+.btn1::after{
+      bottom: 1rem;
+      right: 6rem;}
+}

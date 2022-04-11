@@ -1,0 +1,100 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="calendar_ad.css">
+    <title>calendar_ad</title>
+</head>
+
+<body>
+    <div class="close">
+        <i class="fas fa-window-close"></i>
+    </div>
+    <div id="btn_return">
+        <i class="fas fa-arrow-alt-circle-left"></i>
+    </div>
+    <div id="logo">
+        <img src="img/logo_fixed.png">
+    </div>
+    <section id="calendar">
+        <h1 class="heading">
+            <span>C</span>
+            <span>A</span>
+            <span>L</span>
+            <span>E</span>
+            <span>N</span>
+            <span>D</span>
+            <span>A</span>
+            <span>R</span>
+        </h1>
+
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>TERM</th>
+                    <th>Start of Date</th>
+                    <th>end of Date</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>First Term </td>
+                    <td>1</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>Second Term</td>
+                    <td>99</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>Exams of the first term </td>
+                    <td>77</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>Exams of the second term</td>
+                    <td>99</td>
+                    <td>19</td>
+            </tbody>
+
+        </table>
+
+        <div id="update">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                </div>
+                <select class="select" id="inputGroupSelect01">
+          <option id="option" selected>Choose...</option>
+          <option id="option" value="1">First Term </option>
+          <option id="option" value="2">Second Term </option>
+          <option id="option" value="3">Exams of the first term</option>
+          <option id="option" value="3">Exams of the second term</option>
+        </select>
+            </div>
+
+            <div>
+                <label>Start of Date</label>
+                <input type="date" name="start_date">
+            </div>
+            <div>
+                <label>End of Date</label>
+                <input type="date" name="end_date">
+            </div>
+
+            <button type="button" class="update">update</button>
+
+        </div>
+
+    </section>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

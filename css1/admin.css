@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(20 44 78);
+    font-family: sans-serif;
+}
+
+.fa-window-close:before {
+    font-size: 20px;
+    padding: 0px;
+    color: #337db3;
+    background-position: 0px 50px;
+}
+
+.fa-window-close:hover {
+    cursor: pointer;
+    border-color: #c3d9e9;
+    box-shadow: 0px 0px 10px 0px #337db3;
+}
+
+#icon {
+    padding: 150px 30px;
+}
+
+ ::before {
+    color: #e5e1f3;
+}
+
+.fa-user-cog:before {
+    font-size: 300px;
+    color: #e5e1f3;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #e5e1f3;
+    position: absolute;
+    left: 60px;
+}
+
+img[alt="user"] {
+    position: absolute;
+    top: 5px;
+    left: 140px;
+    font-size: 10px;
+    width: 130px;
+}
+
+h2 {
+    font-size: 1.7rem;
+    position: absolute;
+    top: 140px;
+    color: #e5e1f3;
+    left: 140px;
+}
+
+.box {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    width: 400;
+    height: 530;
+    padding: 130px 20px;
+    border-radius: 70px 10px;
+    border: 5px #e5e1f3 solid;
+    border-top: 25px #e5e1f3 solid;
+    box-shadow: 0px 0px 10px 0px #bddcf1;
+}
+
+.inputBox i {
+    position: absolute;
+    font-size: 35px;
+    padding: 60px 1px;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 10px 0px #446ddd;
+}
+
+.inputBox input {
+    margin: 60px 45px 0px;
+    width: 90%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 0px 0px 10px 15px;
+    letter-spacing: 1px;
+    border-bottom: 3px #c3d9e9 solid;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.inputBox input:focus {
+    border-bottom: 5px solid #337db3;
+}
+
+#btn {
+    background: transparent;
+    position: absolute;
+    bottom: 100px;
+    left: 140px;
+    width: 130;
+    border: 2px #c3d9e9 solid;
+    box-shadow: 0px 0px 10px 0px #bddcf1;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: #337db3;
+}
+
+.custom-control.custom-checkbox {
+    position: absolute;
+    bottom: 50px;
+    color: e5e1f3;
+}

@@ -1,0 +1,175 @@
+
+body{
+      padding: 0;
+      margin: 0;
+      background: linear-gradient(rgba(43, 85, 148),#042033);
+     font-family: auto;
+  }
+ 
+  .fa-window-close {
+  
+      background-color: #d6e0ee;
+      font-size: 22px;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 3;
+      box-shadow: 0px 0px 10px 0px #337db3;
+  }
+  #btn_return{
+      color: white;
+      font-size: 30px;
+      background: none;
+      border: none;
+      position: relative;
+      top: 20px;
+      left: 90%;
+  }
+  
+      #logo{
+          position: relative;
+          width: 100%;
+          top: -20px;
+          left: 20px;
+      }
+      #tit{
+            color: rgb(207, 219, 238);
+            position: relative;
+            top: -60px;
+            left: 30%;
+            font-size: 40px;
+
+      }
+      #tit::before, #tit::after{
+            content: '';
+            position: absolute;
+            height: 3rem;
+            width: 3rem;
+            border-top: .4rem solid rgb(222, 230, 243); 
+            border-left: .4rem solid rgb(222, 230, 243); 
+              }
+              #tit::before{
+                  top: -2rem;
+                  left: -30px;
+            }
+            #tit::after{
+                  bottom: -2rem;
+                  right: -30px;
+                  transform: rotate(180deg);
+            }
+            #tit:hover{
+                  cursor: pointer;
+      color: #8abbdf;
+      padding-left: 10px;
+            }
+    #qr{
+          min-height: 200vh;
+    }
+form{
+      font-size: 35px;
+      font-weight: bold;
+      position: relative;
+      top: -40px;
+      left: 20%;
+}
+
+label{
+  position: relative;
+  color: rgb(207, 219, 238);
+  padding: 20px ;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  }
+  #message{
+        position: relative;
+        top: 60%;
+  }
+h2{
+      font-size: 40px;
+      font-weight: bold;
+      color: rgb(207, 219, 238);   
+}
+#download{
+      text-decoration: none;
+      font-size: 25px;
+      color: rgb(207, 219, 238); 
+}
+ input.form-control{
+      font-size: 25px;
+      height: 50px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      color:#071c2b ;
+    background: linear-gradient(#0e283a,rgb(201, 220, 248));
+ }
+ input.form-control:hover{
+      cursor: pointer;
+      box-shadow: 0 0 10px rgb(116, 135, 156);
+ }
+ textarea.form-control {
+       font-size: 25px;
+       color:rgb(201, 217, 241);
+       margin-bottom: 50px;
+       margin-top: 20px;
+       border-radius: 20PX;
+       padding: 20px 0px 0px 20px;
+       background: linear-gradient(#09263a,rgb(49, 83, 134));
+ }
+ textarea.form-control:hover{
+      cursor: pointer;
+      box-shadow: 0 0 10px rgb(116, 135, 156);
+ }
+ #submit{
+       position: relative;
+       left: 15%;
+      font-size: 27px;
+      height: 50px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      font-weight: bold;
+      color: rgb(15, 34, 63); 
+      background: linear-gradient(#0e283a,rgb(201, 220, 248));
+ }
+ #submit:hover{
+       cursor: pointer;
+       background: linear-gradient(#1b2a35,rgb(44, 57, 77));
+       color: rgb(201, 220, 248);
+       box-shadow: 0 0 10px rgb(116, 135, 156);
+ }
+
+    
+ @media only screen and (max-width:900px){
+      form{
+            left: 2%;
+      }  
+      #submit{
+            font-size: 20px;} 
+            #qr{
+                  min-height: 210vh;
+            }
+ }
+
+ @media only screen and (max-width:600px){
+     
+       #tit{
+             font-size: 30px;
+       }
+      label{
+      font-size: 30px;
+}
+input.form-control{
+      font-size: 20px;
+}
+textarea.form-control {
+      font-size: 20px;
+}
+
+#download{
+      font-size: 22px;
+}
+#submit{
+      position: relative;
+      left: 5%;
+}
+ }

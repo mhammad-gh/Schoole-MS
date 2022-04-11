@@ -1,0 +1,124 @@
+
+body{
+      padding: 0;
+      margin: 0;
+      background: linear-gradient(rgba(43, 85, 148),#042033);
+     font-family: auto;
+  }
+ 
+  .fa-window-close {
+  
+      background-color: #d6e0ee;
+      font-size: 22px;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 3;
+      box-shadow: 0px 0px 10px 0px #337db3;
+  }
+ 
+  #btn_return {
+      color: white;
+      font-size: 30px;
+      background: none;
+      border: none;
+      position: relative;
+      top: 5%;
+      left: 80%;
+  }
+  
+      #logo{
+          position: relative;
+          width: 100%;
+          top: 20px;
+          left: 20px;
+          z-index: 2;
+         
+      }
+      
+      .heading{
+            text-align: center;
+            padding: 2.5rem 0;
+      }
+      .heading span {
+            position: relative;
+            top: -30px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 50px;
+            border-radius: .5rem;
+            text-align: center;
+            background: linear-gradient(#143449,rgb(201, 217, 241));
+            color: rgb(27, 40, 51);
+            padding: .2rem 1rem;
+            cursor: pointer;
+            box-shadow: -1px 12px 12px -6px rgba(35, 126, 196, 0.5);
+
+        }
+  #class{
+        position: relative;
+        top: -20px;
+        left: 20%;
+        min-height: 80vh;
+        
+  }
+  
+ .word{
+      
+       font-size: 50px;
+       font-family: cursive;
+       -webkit-text-stroke:transparent 1.5vw ;
+       text-transform: uppercase;
+       letter-spacing: 2vw;
+       font-weight: bold;
+       background:  linear-gradient(100deg, #162d38 50%,#4f7b99 50.1%);
+       background-size: 40px;
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: rgb(224, 240, 253);
+      
+       animation: text 1s linear infinite;
+       
+ }
+ #item{
+       margin-bottom: 30px;
+ }
+ .word:hover{
+      background:  #c1d9e4 ;
+       color: rgb(17, 38, 58);
+       text-decoration: none;
+       margin-left: 15px;
+ }
+ 
+  @keyframes text{
+        0%{
+              background-position-x: 0;
+        }
+        100%{
+            background-position-x: -40px;
+      }
+  }
+@media only screen and (max-width:900px){
+      #logo{
+            left: 40%;
+      }
+      .heading span {
+            top: 0px;
+            font-size: 35px;}
+            #class{
+                  left: 10%;}   
+                  .word{
+                        font-size: 40px;
+                  }
+          
+}
+@media only screen and (max-width:650px){
+      .heading span {
+           
+            font-size: 30px;}
+            .word{
+                  font-size: 35px;
+            }
+           
+     
+}

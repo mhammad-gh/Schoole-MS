@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "qusition": "he is what",
+        "ans": "mohamm",
+        "option1": "mohamm",
+        "option2": "is know",
+        "option3": "salah ghazl",
+        "option4": "u are"
+    },
+    {
+        "id": 2,
+        "qusition": "salah ghazal",
+        "ans": "is know",
+        "option1": "ssscsc",
+        "option2": "is know",
+        "option3": "salah ghazl",
+        "option4": "u are"
+    },
+    {
+        "id": 3,
+        "qusition": "hello",
+        "ans": "mello",
+        "option1": "mello",
+        "option2": "sello",
+        "option3": "fello",
+        "option4": "ballo"
+    }
+]

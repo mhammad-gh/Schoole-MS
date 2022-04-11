@@ -1,0 +1,240 @@
+
+body{
+      padding: 0;
+      margin: 0;
+      background: linear-gradient(rgba(43, 85, 148),#042033);
+      font-family: sans-serif;
+  }
+ 
+  .fa-window-close {
+  
+      background-color: #d6e0ee;
+      font-size: 22px;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 3;
+  }
+  #btn_return{
+      color: white;
+      font-size: 30px;
+      background: none;
+      border: none;
+      position: relative;
+      top: 5%;
+      left: 90%;
+  }
+      #logo{
+          position: relative;
+          width: 100%;
+          top: 10px;
+         left: 10px;
+          z-index: 2;
+         
+      }
+      #calendar{
+           min-height: 150vh;
+    
+
+      }
+     
+ .heading{    
+      text-align: center;
+      padding: 2.5rem 0;
+}
+.heading span {
+      position: relative;
+   top: -70px;
+      margin-bottom: 20px;
+      font-weight: 600;
+            font-size: 50px;
+            border-radius: .5rem;
+            text-align: center;
+            background: linear-gradient(#143449,rgb(201, 217, 241));
+            color: rgb(27, 40, 51);
+            padding: .2rem 1rem;
+            cursor: pointer;
+            box-shadow: -1px 12px 12px -6px rgba(35, 126, 196, 0.5);
+        }
+      
+      table{
+            position: relative;
+            left: 50%;
+            margin-top: -40px;
+            transform: translate(-50%,-50%);
+            border-collapse: collapse;
+            border:1px solid rgb(1, 38, 59) ;
+      }
+      table:hover{
+            box-shadow: -1px 12px 12px -6px rgba(128, 151, 170, 0.5);
+      }
+   thead{
+      background:  linear-gradient(rgb(59, 105, 175),#042033);
+         color: white;
+   }
+   th,td{
+         padding: 12px;
+         text-align: left;
+        
+   }
+   th{
+      color: rgb(235, 239, 250);
+}
+   tr{
+      transition: all .2s ease-in;
+      cursor: pointer;
+      font-size: 30px;
+}
+tr:hover{
+     
+      background-color:  rgb(222, 230, 243);
+      transform: scale(1.02) ;
+      box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2), -1px -1px 8px rgba(0, 0, 0,0.2);
+}
+
+tr:nth-child(odd){
+      color: #e2f3ff;
+      background: linear-gradient(rgb(56, 76, 107),#07314d);
+     
+}
+tr:nth-child(even){
+      border-top: 1px solid rgb(222, 230, 243);
+      color: rgb(29, 33, 44);
+      background: linear-gradient(#143449,rgb(201, 217, 241));
+}
+
+.select {
+      padding: 15px 20px;
+      font-size: 20px;
+      background: linear-gradient(rgb(59, 105, 175),#042033);
+      color: rgb(222, 230, 243);
+      border: none;
+      border-radius: 0% 30% 30% 0%;
+      max-width: 280px;
+      cursor: pointer;
+  }
+  
+  .select:hover{
+      box-shadow: 0 0 10px rgb(116, 135, 156);
+  }
+  .input-group.mb-3 {
+      margin-top: -50px;
+  }
+   #option{
+      background: #07304b; 
+   }    
+   
+label{
+      cursor: pointer;
+      color: rgb(222, 230, 243);
+      font-size: 30px;
+      padding: 10px 0px 0px;
+    font-weight: bold;
+}
+label.input-group-text {
+      border: none;
+      padding: 10px 15px;
+      border-right: 4px solid rgb(222, 230, 243);
+     
+  }
+input[type="date"] {
+      background: linear-gradient(#143449,rgb(201, 217, 241));
+      font-size: 20px;
+      font-weight: bold;
+      color: rgb(29, 33, 44);
+      padding:10px 20px ;
+      margin:0px 0px 20px ;
+      border: none;
+      border-radius:20px ;
+  }
+  input[type="date"]:hover{
+      box-shadow: 0 0 10px rgb(116, 135, 156);
+      cursor: pointer;
+  }
+
+  button.update {
+cursor: pointer;
+margin-top: 20px;
+    font-size: 30px;
+    border-radius: 30%;
+    padding: 10px 15px;
+    border: none;
+    margin-left: 20%;
+    color: rgb(235, 239, 250);
+    background: linear-gradient(rgb(59, 105, 175),#042033);
+}
+button.update:hover{
+      box-shadow: 0 0 10px rgb(116, 135, 156);
+}
+
+label.input-group-text {
+      font-size: 25px;
+      font-weight: bold;
+      background: linear-gradient(rgb(59, 105, 175),#042033);
+      color: rgb(222, 230, 243);
+      border-radius: 30%;
+   
+}
+
+#update{
+      position: relative;
+     left: 280px;
+      top: 70px;
+}
+  
+
+   @media only screen and (max-width:900px){
+      #logo{
+           left:40% ;
+        }
+      table {
+          margin-top: -10px;
+            width: 90%;
+      }
+      #btn_return{
+            left: 80%;
+      }
+      label{
+            font-size: 20px;
+      }
+      label.input-group-text {
+            font-size: 20px;
+      }
+      input[type="date"]{
+            font-size: 17px;
+      }
+      #update{
+           top: 40px;
+           left: 40px;
+        
+      }
+  
+      .heading span {
+            top:0 ;
+            font-size: 30px;}
+         
+tr{
+      
+      font-size: 25px;
+}
+button.update {
+     
+      font-size: 25px;
+          padding: 5px 10px ;
+          margin-bottom: 20px;
+          
+}
+.input-group.mb-3 {
+      margin-top: -20px;
+  }
+}
+@media only screen and (max-width:750px){
+      tr{
+            font-size: 20px;
+      }
+      .heading span {
+            font-size: 25px;}
+         }
+         table {
+            top: 130px;
+      }

@@ -1,0 +1,249 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(rgba(43, 85, 148), #042033);
+    font-family: auto;
+}
+
+.fa-window-close {
+    background-color: #d6e0ee;
+    font-size: 22px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    box-shadow: 0px 0px 10px 0px #337db3;
+}
+
+#btn_return {
+    color: white;
+    font-size: 30px;
+    background: none;
+    border: none;
+    position: relative;
+    top: 5%;
+    left: 80%;
+}
+
+#logo {
+    position: relative;
+    width: 100%;
+    top: 20px;
+    left: 20px;
+}
+
+.heading {
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.heading span {
+    position: relative;
+    top: -60px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 45px;
+    border-radius: .5rem;
+    text-align: center;
+    background: linear-gradient(#143449, rgb(201, 217, 241));
+    color: rgb(27, 40, 51);
+    padding: .2rem 1rem;
+    cursor: pointer;
+    box-shadow: -1px 12px 12px -6px rgba(35, 126, 196, 0.5);
+}
+
+.search-box {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: -60px;
+    padding-right: 70px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 35%;
+    height: 45px;
+    border: none;
+    outline: none;
+    display: none;
+    background-color: hsl(212, 45%, 94%);
+    color: #10293b;
+    font-size: 25px;
+    padding: 0px 20px;
+    box-shadow: 0 0 15px 1px #a1cadf;
+    transition: 1s linear;
+    border-radius: 50px;
+}
+
+.btn-search {
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    color: #0b2c42;
+    font-size: 25px;
+    background: linear-gradient(#143449, rgb(201, 217, 241));
+}
+
+.search-box:hover input {
+    display: block;
+}
+
+.icon-search {
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translate(-50%, -50%);
+}
+
+tbody {
+    border-top: 5px solid rgb(20, 35, 66);
+}
+
+#students {
+    position: relative;
+    top: -40px;
+    left: 5%;
+    width: 90%;
+    min-height: 80vh;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 1rem 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: radial-gradient(#f4f8fc, #304a58);
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+thead,
+tbody {
+    width: 100%;
+    text-align: center
+}
+
+th {
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(#0b2c42, rgb(110, 131, 161));
+}
+
+tr {
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+td {
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+tr:nth-child(odd) {
+    border-top: 1px solid rgb(20, 35, 66);
+    color: rgb(20, 35, 66);
+}
+
+tr:nth-child(even) {
+    border-top: 1px solid rgb(20, 35, 66);
+    ;
+    color: rgb(20, 35, 66);
+}
+
+tr:hover {
+    color: white;
+    transform: scale(1.02);
+    background: linear-gradient(#10293b, rgb(49, 100, 122));
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width:1250px) {
+    .heading span {
+        font-size: 40px;
+    }
+    #students {
+        left: 5%;
+    }
+    th {
+        font-size: 23px;
+    }
+    td {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:1050px) {
+    .heading span {
+        font-size: 30px;
+    }
+    #students {
+        left: 1%;
+    }
+    th {
+        font-size: 20px;
+    }
+    td {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    #logo {
+        left: 40%;
+    }
+    .heading span {
+        top: 20px;
+        font-size: 25px;
+    }
+    input {
+        width: 70%;
+    }
+    #students {
+        width: 90%;
+        top: 20px;
+        left: 5%;
+    }
+    .search-box {
+        top: 100%;
+    }
+    thead {
+        display: none;
+    }
+    tbody,
+    tr,
+    td {
+        display: block;
+        width: 100%;
+    }
+    tr {
+        border-bottom: 5px solid rgb(20, 35, 66);
+    }
+    th {
+        font-size: 35px;
+    }
+    td {
+        font-size: 30px;
+        text-align: right;
+        position: relative;
+        right: 70px;
+    }
+    td:before {
+        content: attr(data-lable);
+        position: absolute;
+        left: 150px;
+    }
+}

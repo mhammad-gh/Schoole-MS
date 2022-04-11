@@ -1,0 +1,183 @@
+
+body{
+      padding: 0;
+      margin: 0;
+      background: linear-gradient(rgba(43, 85, 148),#042033);
+     font-family: auto;
+  }
+ 
+  .fa-window-close {
+  
+      background-color: #d6e0ee;
+      font-size: 22px;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 3;
+      box-shadow: 0px 0px 10px 0px #337db3;
+  }
+ 
+  #btn_return {
+      color: white;
+      font-size: 30px;
+      background: none;
+      border: none;
+      position: relative;
+      top: 5%;
+      left: 80%;
+  }
+  
+      #logo{
+          position: relative;
+          width: 100%;
+          top: 20px;
+          left: 20px;
+          z-index: 2;
+         
+      }
+      
+      .heading{
+            text-align: center;
+            padding: 2.5rem 0;
+      }
+      .heading span {
+            position: relative;
+            top: -40px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 50px;
+            border-radius: .5rem;
+            text-align: center;
+            background: linear-gradient(#143449,rgb(201, 217, 241));
+            color: rgb(27, 40, 51);
+            padding: .2rem 1rem;
+            cursor: pointer;
+            box-shadow: -1px 12px 12px -6px rgba(35, 126, 196, 0.5);
+
+        }
+  #ads{
+        position: relative;
+        left: 10%;
+        min-height: 80vh;
+  }
+ 
+
+  label{
+      position: relative;
+      top: -70px;
+      color: rgb(189, 212, 250);
+      padding: 20px;
+      font-size: 50px;
+      font-weight: bold;
+      }
+     
+    .underline{
+          width: 270px;
+          height: 5px;
+          background: #9ec6e2;
+          border-radius: 3px;
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          overflow: hidden;
+      }
+      
+      .underline span{
+          width: 25px;
+          height: 100%;
+          background: #163857;
+          border-radius: 3px;
+          position: absolute;
+          top: 0;
+          left: 10px;
+          animation: moving 2s linear infinite;
+      }
+      
+    @keyframes moving{
+          0%{
+              left: -20px;
+          }
+          100%{
+              left: 100%;
+          }
+      }
+      #textarea{
+            color:rgb(237, 240, 245);
+      }
+  textarea.form-control {
+        position: relative;
+        top: -90px;
+        left: 20%;
+      font-size: 25px;
+      color:rgb(237, 240, 245);
+      margin-bottom: 50px;
+      margin-top: 20px;
+      border-radius: 20PX;
+      padding: 20px 0px 0px 20px;
+      background: linear-gradient(#09263a,rgb(49, 83, 134));
+}
+textarea.form-control:hover{
+     cursor: pointer;
+     box-shadow: 0 0 10px rgb(116, 135, 156);
+}
+#enter{
+      font-size: 35px;
+      cursor: pointer;
+      position: relative;
+      top: -90px;
+      left: 35%;
+      margin-top: 20px;
+      padding: 10px 15px;
+      border-radius: 20px;
+      border: none;
+      color: rgb(235, 239, 250);
+      background: linear-gradient(rgb(59, 105, 175),#042033);
+}
+#enter:hover{
+      box-shadow: 0 0 10px rgb(116, 135, 156); 
+}
+  
+  
+@media only screen and (max-width:900px){
+      #logo{
+            left: 40%;
+      }
+      .heading span {
+            top: 20px;
+            font-size: 35px;}
+           
+            label{
+                  top: -20px;
+                  font-size: 37px;
+                  }
+                  .underline{
+                        top:50px;
+                        width: 195px;
+                  }    
+
+                  textarea.form-control {
+                        top: -20px;
+                        left: 5%;}
+                        #enter{
+                              top: -70px;
+                              font-size: 28px;
+                        }
+}
+@media only screen and (max-width:650px){
+      .heading span {
+            font-size: 27px;}
+            #ad{
+                  left: 2%;}
+      label{
+            font-size: 28px;
+  }
+  .underline{
+      width: 150px;
+}   
+          #enter{
+                font-size: 24px;
+          }
+          textarea.form-control {
+                font-size: 22px;
+            left: -20px;}
+}

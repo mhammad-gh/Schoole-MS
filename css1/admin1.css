@@ -1,0 +1,86 @@
+                body {
+                    background-color: rgb(20 44 78);
+                }
+                
+                .fa-window-close:before {
+                    color: #d6e0ee;
+                    font-size: 22px;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px
+                }
+                
+                .fa-window-close:hover {
+                    cursor: pointer;
+                    box-shadow: 0px 0px 10px 0px #0c5991;
+                }
+                
+                button.navbar-toggler {
+                    color: d6e0ee;
+                    font-size: 30px;
+                }
+                
+                button.navbar-toggler:hover {
+                    box-shadow: 0px 0px 10px 0px #cbdaee;
+                }
+                
+                a.nav-link {
+                    color: d6e0ee;
+                    font-family: auto;
+                    font-size: 20px;
+                }
+                
+                .navbar-expand-lg .navbar-nav .nav-link {
+                    padding-left: 30px;
+                }
+                
+                a.nav-link:hover {
+                    color: #94b5e6;
+                    font-size: 25px;
+                }
+                
+                #iconbar {
+                    padding-right: 10px;
+                }
+                
+                .fa-user-cog:before {
+                    color: #d6e0ee;
+                    font-size: 50px;
+                    padding-left: 30px;
+                    margin-right: 30px;
+                }
+                
+                .fa-user-cog:hover {
+                    cursor: pointer;
+                }
+                
+                h1 {
+                    font-family: auto;
+                    color: #d6e0ee;
+                    text-align: center;
+                    font-size: 60px;
+                    padding-top: 20px;
+                }
+                
+                h2 {
+                    font-size: 80px;
+                    padding: 0px 50px 0px;
+                }
+                
+                #icon {
+                    font-size: 200px;
+                    color: #d6e0ee;
+                    font-family: auto;
+                    padding: 90px 0px;
+                }
+                
+                span:hover {
+                    cursor: pointer;
+                    font-size: 100px;
+                    color: #94b5e6;
+                }
+                
+                a {
+                    color: #94b5e6;
+                    text-decoration: none;
+                }

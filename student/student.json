@@ -1,0 +1,88 @@
+[{
+        "id": 1,
+        "fullname": "mohammad ghazal",
+        "username": "mo7amad",
+        "date": "1982-04-13",
+        "type_class": "11",
+        "phone": "994719749",
+        "gender": "male",
+        "location": "damas",
+        "email": "ghazalmohammad075@gmail.com",
+        "password": "123321"
+    },
+    {
+        "id": 2,
+        "fullname": "ali ghazal",
+        "username": "ali87",
+        "date": "1982-04-13",
+        "type_class": "11",
+        "phone": "099582458",
+        "gender": "male",
+        "location": "domer",
+        "email": "ghazalmohammad@gmail.com",
+        "password": "5825827"
+    },
+    {
+        "id": 3,
+        "fullname": "salah ghazal",
+        "username": "salah098",
+        "date": "1982-04-13",
+        "type_class": "11",
+        "phone": "582582456",
+        "gender": "male",
+        "location": "domer",
+        "email": "v@g",
+        "password": "9988"
+    },
+    {
+        "id": 4,
+        "fullname": "ischange",
+        "username": "rema54",
+        "date": "1982-04-13",
+        "type_class": "11",
+        "marks": {
+            "math": "22",
+            "art": "61",
+            "sinec": "60"
+        },
+        "phone": "994719749",
+        "gender": "famel",
+        "location": "domer",
+        "email": "ghazalmohammad075@gmail.com",
+        "password": "5825827"
+    },
+    {
+        "id": 5,
+        "fullname": "ghgh",
+        "username": "gh57",
+        "date": "2021-04-14",
+        "type_class": "10",
+        "marks": {
+            "math": "100",
+            "art": "100",
+            "sinec": "100"
+        },
+        "phone": "994719749",
+        "gender": "famel",
+        "location": "doma",
+        "email": "ghazalmohammad075@gmail.com",
+        "password": "0000000"
+    },
+    {
+        "id": 6,
+        "fullname": "amajd",
+        "username": "am65",
+        "date": "2021-03-30",
+        "type_class": "10",
+        "marks": {
+            "math": "00",
+            "art": "00",
+            "sinec": "00"
+        },
+        "phone": "994719749",
+        "gender": "male",
+        "location": "damas",
+        "email": "ghazalmohammad075@gmail.com",
+        "password": "5454"
+    }
+]

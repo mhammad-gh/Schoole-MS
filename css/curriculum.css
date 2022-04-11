@@ -1,0 +1,180 @@
+
+body{
+      padding: 0;
+      margin: 0;
+      background: linear-gradient(rgba(43, 85, 148),#042033);
+      font-family: auto;
+  }
+ 
+  .fa-window-close {
+  
+      background-color: #d6e0ee;
+      font-size: 22px;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 3;
+      box-shadow: 0px 0px 10px 0px #337db3;
+  }
+ 
+  #btn_return {
+      color: white;
+      font-size: 30px;
+      background: none;
+      border: none;
+      position: relative;
+      top: 5%;
+      left: 80%;
+  }
+  
+      #logo{
+          position: relative;
+          width: 100%;
+          top: 20px;
+          left: 20px;
+      }
+      
+      .heading{
+         
+            text-align: center;
+            padding: 2.5rem 0;
+      }
+      .heading span {
+            position: relative;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 50px;
+            border-radius: .5rem;
+            text-align: center;
+            background: linear-gradient(#143449,rgb(201, 217, 241));
+            color: rgb(27, 40, 51);
+            padding: .2rem 1rem;
+            cursor: pointer;
+            box-shadow: -1px 12px 12px -6px rgba(35, 126, 196, 0.5);
+
+        }
+
+        label{
+            position: relative;
+            left: 35%;
+            color: rgb(189, 212, 250);
+            padding: 20px;
+            font-size: 50px;
+            font-weight: bold;
+            }
+      .underline{
+            top: -50px;
+            width: 310px;
+            height: 5px;
+            background: #9ec6e2;
+            border-radius: 3px;
+            position: absolute;
+            top: 390px;
+            left: 36%;
+            overflow: hidden;
+        }
+        
+        .underline span{
+            width: 25px;
+            height: 100%;
+            background: #163857;
+            border-radius: 3px;
+            position: absolute;
+            top: 0;
+            left: 10px;
+            animation: moving 2s linear infinite;
+        }
+        
+@keyframes moving{
+      0%{
+          left: -20px;
+      }
+      100%{
+          left: 100%;
+      }
+  }
+
+   .curriculum{
+        min-height: 100vh; 
+   }
+  
+   .curriculum .image-container{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-wrap: wrap;
+         padding-bottom: 2rem;
+   }
+   .curriculum .image-container .img{
+      width: 20rem;
+     margin: 2rem;
+     border-radius: 30px;
+     border: 5px solid rgb(10, 50, 104);
+box-shadow: 0 .5rem .5rem rgb(18, 67, 124);
+}
+.curriculum .image-container .img img{
+      height: 10rem;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 30px;
+      margin-bottom: 15px;
+}
+.curriculum .image-container .img h2{
+font-size: 2rem;
+color: rgb(189, 212, 250);
+text-align: center;
+border-radius: 5px;
+padding-bottom: 15px;
+box-shadow: 0   0 .3rem rgb(188, 235, 253);
+}
+
+.curriculum .image-container .img h2:hover{
+      cursor: pointer;
+color: rgb(15, 45, 71);
+border-radius: 20px;
+font-weight: bolder;
+background: linear-gradient(#0a2e46,rgb(201, 220, 248));
+text-decoration: none;
+}
+.curriculum .image-container .img h3{
+      font-size: 2rem;
+      color: rgb(189, 212, 250);
+      text-align: center;
+      border-radius: 20px;
+      padding: 10px 0px ;
+      font-weight: bolder;
+      background: linear-gradient(rgb(7, 31, 66),#133d5a);
+      text-decoration: none;
+      }
+      
+@media only screen and (max-width:790px){
+      #logo{
+            left: 40%;
+      }
+      .heading span {
+         top: 20px;
+            font-size: 35px;}
+            label{
+                  left: 28%;
+                  }
+            .underline{
+                  left: 30%;  }
+}
+@media only screen and (max-width:680px){
+      label{
+            font-size: 30px;
+          }
+           .heading span {
+               font-size: 20px;}
+      .underline{
+            width: 200px;
+            top: 350px;}
+}
+@media only screen and (max-width:570px){
+      .underline{
+            top: 370px;}
+}
+@media only screen and (max-width:510px){
+      .underline{
+            top: 390px;}
+}

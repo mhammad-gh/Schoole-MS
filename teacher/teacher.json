@@ -1,0 +1,61 @@
+[{
+        "id": 1,
+        "fullname": "gho",
+        "username": "gho45",
+        "date": "2021-04-13",
+        "type_class": "arabic",
+        "phone": "03214566",
+        "gender": "male",
+        "location": "damas",
+        "email": "v@g",
+        "password": "12365478"
+    },
+    {
+        "id": 2,
+        "fullname": "mho",
+        "username": "gho45",
+        "date": "2021-04-13",
+        "type_class": "arabic",
+        "phone": "03214566",
+        "gender": "male",
+        "location": "damas",
+        "email": "v@gbn",
+        "password": "12365478"
+    },
+    {
+        "id": 3,
+        "fullname": "mn",
+        "username": "",
+        "date": "2021-04-13",
+        "type_class": "arabic",
+        "phone": "",
+        "gender": "",
+        "location": "",
+        "email": "",
+        "password": ""
+    },
+    {
+        "id": 4,
+        "fullname": "ah",
+        "username": "mohg56",
+        "date": "2021-04-13",
+        "type_class": "arabic",
+        "phone": "0000",
+        "gender": "famel",
+        "location": "demer",
+        "email": "v@g",
+        "password": "0000000"
+    },
+    {
+        "id": 5,
+        "fullname": "",
+        "username": "",
+        "date": "2021-04-13",
+        "type_class": "arabic",
+        "phone": "",
+        "gender": "",
+        "location": "",
+        "email": "",
+        "password": ""
+    }
+]

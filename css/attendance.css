@@ -1,0 +1,165 @@
+
+body{
+      padding: 0;
+      margin: 0;
+      background: linear-gradient(rgba(43, 85, 148),#042033);
+     font-family: auto;
+  }
+ 
+  .fa-window-close {
+  
+      background-color: #d6e0ee;
+      font-size: 22px;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 3;
+      box-shadow: 0px 0px 10px 0px #337db3;
+  }
+ 
+  #btn_return {
+      color: white;
+      font-size: 30px;
+      background: none;
+      border: none;
+      position: relative;
+      top: 5%;
+      left: 80%;
+  }
+  
+      #logo{
+          position: relative;
+          width: 100%;
+          top: 20px;
+          left: 20px;
+          z-index: 2;
+         
+      }
+      
+      .heading{
+            text-align: center;
+            padding: 2.5rem 0;
+      }
+      .heading span {
+            position: relative;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 50px;
+            border-radius: .5rem;
+            text-align: center;
+            background: linear-gradient(#143449,rgb(201, 217, 241));
+            color: rgb(27, 40, 51);
+            padding: .2rem 1rem;
+            cursor: pointer;
+            box-shadow: -1px 12px 12px -6px rgba(35, 126, 196, 0.5);
+
+        }
+  #attendance{
+        position: relative;
+        left: 10%;
+        min-height: 80vh;
+  }
+  form{
+        margin-bottom: 0px;
+  }
+  #name{
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(238, 243, 252);
+  }
+  #name:hover{
+        text-decoration: none;
+  }
+label{
+  position: relative;
+  color: rgb(225, 233, 248);
+  padding: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  }
+ input[type = checkbox] + label{
+display: inline;
+cursor: pointer;
+
+ }
+ input[type = checkbox]{
+       display: none;
+       
+ }
+
+ input[type = checkbox] + label:before{
+      content: "\2714";
+      border: 2px solid white;
+      border-radius: 50%;
+      font-size: 25px;
+      padding-right: 10px;
+      margin-right: 10px;
+      color: transparent;
+      transition: .1s;
+       }
+
+       input[type = checkbox] + label:active:before{
+             transform: scale(0);
+       }
+
+       input[type = checkbox]:checked + label:before{
+            background: linear-gradient(#143449,rgb(201, 217, 241));
+border-color: rgb(235, 239, 250);
+color: #042033;
+       }
+#confirm{
+      font-size: 35px;
+      cursor: pointer;
+      position: relative;
+      top: 30px;
+      left: 40%;
+      margin-top: 20px;
+      padding: 10px 15px;
+      border-radius: 20px;
+      border: none;
+      color: rgb(235, 239, 250);
+      background: linear-gradient(rgb(59, 105, 175),#042033);
+}
+#confirm:hover{
+      box-shadow: 0 0 10px rgb(116, 135, 156); 
+}
+  
+  
+@media only screen and (max-width:900px){
+      #logo{
+            left: 40%;
+      }
+      .heading span {
+            font-size: 30px;}
+           
+            label{
+                  font-size: 30px;
+                  }
+              #name{
+              font-size: 40px;
+             }
+                  input[type = checkbox] + label:before{
+                  font-size: 25px;
+                  }
+                  #confirm{
+                        font-size: 28px;
+                  }
+}
+@media only screen and (max-width:650px){
+      .heading span {
+            font-size: 25px;}
+            #attendance{
+                  left: 2%;}
+      label{
+            font-size: 25px;
+  }
+  #name{
+      font-size: 30px;
+     }
+          input[type = checkbox] + label:before{
+          font-size: 18px;
+          }
+          #confirm{
+                font-size: 22px;
+          }
+}

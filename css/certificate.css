@@ -1,0 +1,222 @@
+
+body{
+      padding: 0;
+      margin: 0;
+      background: linear-gradient(rgba(43, 85, 148),#042033);
+      font-family: auto;
+  }
+ 
+  .fa-window-close {
+  
+      background-color: #d6e0ee;
+      font-size: 22px;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 3;
+      box-shadow: 0px 0px 10px 0px #337db3;
+  }
+ 
+  #btn_return {
+      color: white;
+      font-size: 30px;
+      background: none;
+      border: none;
+      position: relative;
+      top: 5%;
+      left: 80%;
+  }
+  
+  #logo{
+      position: relative;
+      width: 100%;
+      top: 20px;
+      left: 20px;
+  }
+     
+  .heading{
+      text-align: center;
+      padding: 2.5rem 0;
+}
+
+.heading span {
+      position: relative;
+      top: -40px;
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: 40px;
+      border-radius: .5rem;
+      text-align: center;
+      background: linear-gradient(#143449,rgb(201, 217, 241));
+      color: rgb(27, 40, 51);
+      padding: .2rem 1rem;
+      cursor: pointer;
+      box-shadow: -1px 12px 12px -6px rgba(35, 126, 196, 0.5);
+  }
+  tbody{
+      border-top: 5px solid rgb(20, 35, 66);
+
+  }
+  #certifi{
+      position: relative;
+      top: -40px;
+      left: 5%;
+      width: 90%;
+}
+th,td{
+    text-align: left;
+    padding: 1rem 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+background: #f4f8fc;
+margin-bottom: 50px;}
+thead,tbody{
+width: 100%;
+text-align: center
+
+}
+
+th{
+ border: none;
+ text-align: center;
+ font-size: 35px;
+ font-weight: bold;
+ color: white;
+ background: linear-gradient(#0b2c42,rgb(110, 131, 161));
+}
+
+tr{
+    
+ transition: all .2s ease-in;
+ cursor: pointer;
+}
+
+
+td{
+text-align: center;
+font-size: 30px;
+font-weight: lighter;
+}     
+
+tr:nth-child(odd){
+ border-top: 1px solid rgb(20, 35, 66);
+
+}
+tr:nth-child(even){
+ border-top: 1px solid rgb(20, 35, 66);
+}
+
+tr:hover{
+ transform: scale(1.02) ;
+box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2), -1px -1px 8px rgba(0, 0, 0,0.2);
+}
+label{
+      position: relative;
+      top: -10px;
+      left: 20%;
+      margin-right: 30px;
+      margin-bottom: 20px;
+      font-size: 35px;
+      color: white;
+   
+   
+
+}
+#final-result,#final-status{
+      color: white;
+      font-weight: bold;
+      position: relative;
+      top: -10px;
+      left: 20%;
+     padding-left: 20px;
+      font-size: 30px;
+      border: 2px solid rgb(199, 221, 241);
+      border-radius: 50% 10%;
+      padding: 10px 20px;
+}
+#final-result:hover,#final-status:hover{
+   background: rgb(221, 235, 252);
+      color: rgb(12, 55, 77);
+      text-decoration: none;
+}
+hr{
+      border: 2px solid rgb(233, 240, 250);
+}
+@media only screen and (max-width:1250px){
+.heading span {
+      font-size: 40px;}
+#certifi{
+      min-height: 200vh;
+left: 5%;}
+th{
+      font-size: 30px;
+} 
+td{
+     font-size: 25px;
+}
+}
+@media only screen and (max-width:1050px){
+.heading span {
+    
+      font-size: 30px;}
+#certifi{
+left: 5%;}
+th{
+     
+      font-size: 25px;
+} 
+td{
+     font-size: 20px;
+}
+}
+
+@media only screen and (max-width:900px){
+#logo{
+      left: 40%;
+}
+.heading{
+      padding: 1rem 0;}
+.heading span {
+      top: 15px;
+         font-size: 20px;}
+      
+         #certifi{
+            width: 90%;
+            top: 20px;
+            left: 5%;
+            }
+          
+          thead{
+                display: none;
+          }
+          tbody,tr,td{
+                display: block;
+                width: 100%;
+          }
+          tr{
+                border-bottom: 5px solid rgb(20, 35, 66);
+          } 
+          th{
+            font-size: 35px;
+      } 
+    
+          td{
+            font-size: 30px;
+                text-align: right;
+                position: relative;
+                right: 40px;
+          }
+          td:before{
+                content: attr(data-lable);
+                position: absolute;
+                left: 100px;
+          }
+          label{
+            font-size: 30px;
+      }
+      #final-result,#final-status{
+            font-size: 25px;
+      }
+}
